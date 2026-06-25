@@ -63,6 +63,8 @@
     .legal-block { margin-bottom: 36px; }
     .legal-block h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
     .legal-block p { color: var(--sub); font-size: 15px; line-height: 1.7; }
+    .legal-block ol { color: var(--sub); font-size: 15px; line-height: 1.7; margin: 10px 0 10px 22px; }
+    .legal-block li { margin-bottom: 6px; }
     footer { border-top: 1px solid var(--border); padding: 48px 24px; text-align: center; }
     .footer-brand { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 20px; }
     .footer-brand-icon { width: 40px; height: 40px; border-radius: 10px; overflow: hidden; }
@@ -129,11 +131,20 @@
     <div class="legal-section" style="padding:60px 24px;">
       <div class="section-label">Legal</div>
       <h2>Privacy Policy</h2>
-      <div class="legal-date">Last updated: May 2025</div>
+      <div class="legal-date">Last updated: June 2026</div>
       <div class="legal-block"><h3>Information We Collect</h3><p>StriveFlow collects fitness activity data recorded during workouts and device identifiers. Bluetooth sensor data is processed locally on your device.</p></div>
       <div class="legal-block"><h3>How We Use Your Information</h3><p>Your data is used solely to provide and improve StriveFlow. We do not sell your personal data to third parties.</p></div>
       <div class="legal-block"><h3>Data Storage</h3><p>Workout data is stored locally using AsyncStorage. If you create an account, data syncs to our secure Supabase database. You may delete your account and all data at any time from Settings.</p></div>
       <div class="legal-block"><h3>Third-Party Services</h3><p>If you connect Strava, activity data you upload is governed by Strava's own privacy policy. We only write activity data to Strava — we do not read or store any Strava data within StriveFlow.</p></div>
+      <div class="legal-block" id="deletion">
+        <h3>Account and Data Deletion</h3>
+        <p>You can request deletion of your StriveFlow account and all associated data at any time, in either of these ways:</p>
+        <ol>
+          <li>In the app, go to <strong>Settings → Account</strong> and tap <strong>Delete Account</strong>.</li>
+          <li>Email us at <a href="mailto:striveflowapp@gmail.com?subject=Account%20Deletion%20Request" style="color:var(--accent);">striveflowapp@gmail.com</a> with the subject "Account Deletion Request," sent from the email address associated with your account.</li>
+        </ol>
+        <p>Once we receive your request, we will permanently delete your account and all associated data — including your profile, activities, routes, photos, and social posts — within 30 days.</p>
+      </div>
       <div class="legal-block"><h3>Contact</h3><p>Questions? Email us at <a href="mailto:striveflowapp@gmail.com" style="color:var(--accent);">striveflowapp@gmail.com</a></p></div>
     </div>
   </div>
@@ -141,7 +152,7 @@
   <section class="legal-section" id="terms">
     <div class="section-label">Legal</div>
     <h2>Terms of Service</h2>
-    <div class="legal-date">Last updated: May 2025</div>
+    <div class="legal-date">Last updated: June 2026</div>
     <div class="legal-block"><h3>Acceptance</h3><p>By downloading or using StriveFlow, you agree to be bound by these Terms of Service. If you do not agree, please do not use the app.</p></div>
     <div class="legal-block"><h3>Use of the App</h3><p>StriveFlow is for personal, non-commercial fitness tracking only. You may not use the app for any unlawful purpose or in violation of these terms.</p></div>
     <div class="legal-block"><h3>Pro Subscription</h3><p>StriveFlow Pro is available as a monthly or annual subscription. Subscriptions auto-renew unless cancelled at least 24 hours before the end of the current period. Manage or cancel your subscription at any time through the Google Play Store.</p></div>
@@ -163,7 +174,7 @@
       <li><a href="mailto:striveflowapp@gmail.com">Contact</a></li>
       <li><a href="https://play.google.com/store/apps/details?id=com.striveflow" target="_blank">Google Play</a></li>
     </ul>
-    <div class="footer-copy">© 2025 StriveFlow. All rights reserved.</div>
+    <div class="footer-copy">© 2026 StriveFlow. All rights reserved.</div>
   </footer>
 
 </body>
